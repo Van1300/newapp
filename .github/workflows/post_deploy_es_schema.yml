@@ -38,7 +38,7 @@ jobs:
         export CLOUDSDK_CORE_DISABLE_PROMPTS=1
         echo '${{ secrets.SERVICE_ACCOUNT_KEYFILE_JSON }}' > client-secret.json
         gcloud auth activate-service-account --key-file client-secret.json
-        gcloud config set project cd
+        gcloud config set project cder34
         cloud_run_url=$(gcloud run services describe newapp --platform managed --region asia-east1 --format 'value(status.url)')
         echo "[*] Cloud Run url : ${cloud_run_url}"
         echo "[*] Triggering the Schema generation api..."

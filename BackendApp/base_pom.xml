@@ -82,7 +82,7 @@
 		<profile>
 			<id>local</id>
 			<properties>
-				<app-name>cd</app-name>
+				<app-name>cder34</app-name>
 				<app-version>1-0-0</app-version>
 				<env-suffix>DEV</env-suffix>
 			</properties>
@@ -135,7 +135,7 @@
 		<profile>
 			<id>cloud-run-dev</id>
 			<properties>
-				<app-name>cd</app-name>
+				<app-name>cder34</app-name>
 				<app-version>1-0-0</app-version>
 			</properties>
 			<build>
@@ -149,7 +149,7 @@
 								<image>bellsoft/liberica-openjre-alpine:17.0.7-7</image>
 							</from>
 							<to>
-								<image>global-docker.pkg.dev/cd/newapp-repository/newapp</image>
+								<image>global-docker.pkg.dev/cder34/newapp-repository/newapp</image>
 								<tags>
 									<tag>${IMAGE_VERSION_ID}_${COMMIT_ID}</tag>
 								</tags>

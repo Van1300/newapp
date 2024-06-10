@@ -53,7 +53,7 @@
 		<profile>
         	<id>default</id>
             <properties>
-            	<app-name>cd</app-name>
+            	<app-name>cder34</app-name>
                 <env-suffix>DEV</env-suffix>
                 <local-env>true</local-env>
 				<spring.profiles.active>dev</spring.profiles.active>
@@ -84,7 +84,7 @@
         <profile>
 			<id>dev</id>
 			<properties>
-				<app-name>cd</app-name>
+				<app-name>cder34</app-name>
 				<app-version>1-0-0</app-version>
 				<env-suffix>Dev</env-suffix>
 				<spring.profiles.active>dev</spring.profiles.active>
